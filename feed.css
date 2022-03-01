@@ -1,0 +1,61 @@
+.feed{
+    flex: 0.4;
+    border: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+.header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: white;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.tweetbox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-background);
+    padding-right: 10px;
+}
+.tweetbox > form{
+    display: flex;
+    flex-direction: column;
+}
+.inputTweet{
+    padding: 20px;
+    display: flex;
+}
+.inputTweet>input{
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 5px;
+    font-size: 20px;
+    border: none;
+}
+.tweetButton{
+    width: 80px;
+    height: max-content;
+    padding: 10px;
+    border-radius: 30px !important;
+    border:none !important;
+    background: var(--twitter-color) !important;
+    /* font-size: 1.2em; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900 !important;
+    color: white !important;
+    margin-top: 20px !important;
+    margin-left: auto;
+    cursor: pointer;
+}
+.inputImg{
+    border: none;
+    padding-left: 20px;
+    margin: auto auto;
+    width:80%;
+}
+.avatar{
+    font-size: 1.5em;
+}
